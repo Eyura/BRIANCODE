@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/orange"
+    tools:context=".start">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/shape2">
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_marginStart="20dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/logoapp" />
+        <TextView
+            android:id="@+id/deskripsi"
+            android:layout_width="200dp"
+            android:layout_centerHorizontal="true"
+            android:layout_height="100dp"
+            android:text="WELCOME"
+            android:fontFamily="@font/holiday"
+            android:gravity="center"
+            android:textSize="50dp"
+            android:layout_marginBottom="10dp"
+            android:layout_below="@id/logo">
+        </TextView>
+        <Button
+            android:id="@+id/login"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/deskripsi"
+            android:text="LOGIN"
+            android:layout_centerHorizontal="true"
+            android:backgroundTint="@color/orange"
+            android:contentDescription="@string/app_name">
+        </Button>
+        <Button
+            android:id="@+id/register"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/login"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:text="REGISTRASI"
+            android:backgroundTint="@color/orange"
+            android:contentDescription="@string/app_name">
+        </Button>
+
+        <Button
+            android:id="@+id/googlebutton"
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/register"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:backgroundTint="@color/blue"
+            android:drawableLeft="@drawable/google"
+            android:onClick="openGoogle"
+            android:text="login with google"
+            android:textColor="@color/white"
+            android:textSize="12sp"
+            app:iconPadding="18dp"
+            tools:ignore="TouchTargetSizeCheck"></Button>
+
+
+
+
+
+
+    </RelativeLayout>
+
+
+
+
+</RelativeLayout>

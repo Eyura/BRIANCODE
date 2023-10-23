@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="negera_array">
+        <item>Indonesia</item>
+        <item>Amerika Serikat</item>
+        <item>Kanada</item>
+        <item>Brasil</item>
+        <item>Prancis</item>
+        <item>Jerman</item>
+        <item>Cina</item>
+        <item>India</item>
+        <item>Jepang</item>
+        <item>Rusia</item>
+        <item>Australia</item>
+        <item>Afrika Selatan</item>
+        <item>Mesir</item>
+        <item>Nigeria</item>
+        <item>Kenya</item>
+        <item>Argentina</item>
+        <item>Spanyol</item>
+        <item>Italia</item>
+        <item>Inggris (United Kingdom)</item>
+        <item>Swedia</item>
+        <item>Arab Saudi</item>
+        <item>Iran</item>
+        <item>Turki</item>
+        <item>Malaysia</item>
+        <item>Singapura</item>
+        <item>Thailand</item>
+        <item>Vietnam</item>
+        <item>Filipina</item>
+        <item>Korea Selatan</item>
+        <item>Kamboja</item>
+
+    </string-array>
+</resources>

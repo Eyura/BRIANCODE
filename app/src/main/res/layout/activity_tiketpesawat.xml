@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".tiketpesawat">
+
+    <TextView
+        android:id="@+id/textid"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textAlignment="center"
+        android:text="DISCOVER"
+        android:textStyle="bold"
+        android:background="@drawable/shape1"
+        android:fontFamily="@font/holiday"
+        android:textSize="32dp"/>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="10dp"
+        android:layout_below="@+id/textid"
+        android:layout_marginBottom="5dp"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="10dp"
+        app:cardMaxElevation="12dp"
+        app:cardPreventCornerOverlap="true"
+        app:cardUseCompatPadding="true"
+        tools:ignore="MissingConstraints">
+
+    <ImageView
+        android:id="@+id/iklan1"
+        android:layout_width="wrap_content"
+        android:layout_height="192dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:contentDescription="Mulai desain dengan Development terbaik"
+        android:src="@drawable/tiket11" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="10dp"
+        android:layout_below="@+id/card1"
+        android:layout_marginBottom="5dp"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="10dp"
+        app:cardMaxElevation="12dp"
+        app:cardPreventCornerOverlap="true"
+        app:cardUseCompatPadding="true"
+        tools:ignore="MissingConstraints">
+
+        <ImageView
+            android:id="@+id/iklan2"
+            android:layout_width="wrap_content"
+            android:layout_height="192dp"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:contentDescription="Mulai desain dengan Development terbaik"
+            android:src="@drawable/tiket11" />
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>
